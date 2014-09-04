@@ -1,0 +1,32 @@
+.bundle
+.env
+db/*.sqlite3
+log/*
+tmp/*
+coverage/*
+coverage
+chromedriver.log
+build-number.txt
+spec/reports/*
+features/reports/*
+
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.swo
+*.md.html
+*.pid
+
+## development files
+.idea/*
+
+.vimrc
+/start
+/stop
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
